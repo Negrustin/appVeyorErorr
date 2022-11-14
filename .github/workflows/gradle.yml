@@ -36,6 +36,6 @@ jobs:
     - name: Build with gradle
       run:  java -jar ../../artifacts/app-order.jar &
             chmod +x gradlew
-            ./gradlew test --info
+            ./gradlew test
              
      
